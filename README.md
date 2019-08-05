@@ -5,6 +5,7 @@ Implementation of Design Patterns in many languages.
 ## Content
 
 * [Creational patterns](creational-patterns)
+* [Structural patterns](structural-patterns)
 
 ## What’s a design pattern?
 
