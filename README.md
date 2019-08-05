@@ -4,9 +4,9 @@ Implementation of Design Patterns in many languages.
 
 ## Content
 
-* [Creational patterns](creational-patterns)
-* [Structural patterns](structural-patterns)
-* [Behavioral patterns](behavioral-patterns)
+* [Creational Patterns](creational-patterns)
+* [Structural Patterns](structural-patterns)
+* [Behavioral Patterns](behavioral-patterns)
 
 ## What’s a design pattern?
 
@@ -37,7 +37,7 @@ The most basic and low-level patterns are often called idioms. They usually appl
 
 The most universal and high-level patterns are architectural patterns. Developers can implement these patterns in virtually any language. Unlike other patterns, they can be used to design the architecture of an entire application.
 
-In addition, all patterns can be categorized by their intent, or purpose. This book covers three main groups of patterns:
+In addition, all patterns can be categorized by their intent, or purpose. This repository covers three main groups of patterns:
 
 * __Creational patterns__ provide object creation mechanisms that increase flexibility and reuse of existing code.
 * __Structural patterns__ explain how to assemble objects and classes into larger structures, while keeping the structures flexible and efficient.
