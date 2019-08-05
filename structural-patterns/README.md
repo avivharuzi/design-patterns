@@ -1,1 +1,1 @@
-# Structural patterns
+# Structural Patterns
