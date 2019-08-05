@@ -1,1 +1,1 @@
-# Behavioral patterns
+# Behavioral Patterns
