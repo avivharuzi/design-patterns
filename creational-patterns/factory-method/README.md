@@ -19,4 +19,4 @@ At this point, the code of the factory method may look pret- ty ugly. It may hav
 5. If there are too many product types and it doesn’t make sense to create subclasses for all of them, you can reuse the control parameter from the base class in subclasses.
 6. If, after all of the extractions, the base factory method has become empty, you can make it abstract. If there’s something left, you can make it a default behavior of the method.
 
-![Design Patterns](/images/factory-method.png)
+![Factory Method](/images/factory-method.png)
