@@ -8,3 +8,4 @@ These patterns provide various object creation mechanisms, which increase flexib
 * [Abstract Factory](abstract-factory)
 * [Builder](builder)
 * [Prototype](prototype)
+* [Singleton](singleton)
