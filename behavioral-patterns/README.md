@@ -5,3 +5,4 @@ These patterns are concerned with algorithms and the assignment of responsibilit
 ## Content
 
 * [Chain of Responsibility](chain-of-responsibility)
+* [Command](command)
