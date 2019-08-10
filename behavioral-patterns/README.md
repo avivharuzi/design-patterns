@@ -13,3 +13,4 @@ These patterns are concerned with algorithms and the assignment of responsibilit
 * [State](state)
 * [Strategy](strategy)
 * [Template Method](template-method)
+* [Visitor](visitor)
