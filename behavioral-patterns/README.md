@@ -9,3 +9,4 @@ These patterns are concerned with algorithms and the assignment of responsibilit
 * [Iter­a­tor](iter­a­tor)
 * [Mediator](mediator)
 * [Memento](memento)
+* [Observer](observer)
