@@ -1,6 +1,6 @@
-# Iter­a­tor
+# Iterator
 
-Lets you tra­verse elements of a collection with­out expos­ing its under­ly­ing representation (list, stack, tree, etc.).
+Lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
 
 ## Examples
 
@@ -10,10 +10,10 @@ Lets you tra­verse elements of a collection with­out expos­ing its under­ly�
 
 ## How to Implement
 
-1. Declare the iter­a­tor inter­face. At the very least, it must have a method for fetch­ing the next element from a collection. But for the sake of convenience you can add a cou­ple of other meth­ods, such as fetch­ing the pre­vi­ous element, track­ing the cur­rent position, and check­ing the end of the iteration.
-2. Declare the collection inter­face and describe a method for fetch­ing iter­a­tors. The return type should be equal to that of the iter­a­tor inter­face. You may declare sim­i­lar meth­ods if you plan to have sev­er­al dis­tinct groups of iterators.
-3. Implement con­crete iter­a­tor class­es for the collections that you want to be tra­vers­a­ble with iter­a­tors. An iter­a­tor object must be linked with a sin­gle collection instance. Usu­al­ly, this link is establish via the iter­a­tor’s constructor.
-4. Implement the collection inter­face in your collection class­es. The main idea is to pro­vide the client with a short­cut for cre­at­ing iter­a­tors, tailored for a par­tic­u­lar collection class. The collection object must pass itself to the iter­a­tor’s constructor to establish a link between them.
-5. Go over the client code to replace all of the collection tra­ver­sal code with the use of iter­a­tors. The client fetch­es a new iter­a­tor object each time it needs to iter­ate over the collection elements.
+1. Declare the iterator interface. At the very least, it must have a method for fetching the next element from a collection. But for the sake of convenience you can add a couple of other methods, such as fetching the previous element, tracking the current position, and checking the end of the iteration.
+2. Declare the collection interface and describe a method for fetching iterators. The return type should be equal to that of the iterator interface. You may declare similar methods if you plan to have several distinct groups of iterators.
+3. Implement concrete iterator classes for the collections that you want to be traversable with iterators. An iterator object must be linked with a single collection instance. Usually, this link is establish via the iterator’s constructor.
+4. Implement the collection interface in your collection classes. The main idea is to provide the client with a shortcut for creating iterators, tailored for a particular collection class. The collection object must pass itself to the iterator’s constructor to establish a link between them.
+5. Go over the client code to replace all of the collection traversal code with the use of iterators. The client fetches a new iterator object each time it needs to iterate over the collection elements.
 
-![Iter­a­tor](/images/iter­a­tor.png)
+![Iterator](/images/iterator.png)
