@@ -8,3 +8,4 @@ These patterns explain how to assemble objects and classes into larger structure
 * [Bridge](bridge)
 * [Composite](composite)
 * [Decorator](decorator)
+* [Facade](facade)
