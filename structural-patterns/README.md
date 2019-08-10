@@ -10,3 +10,4 @@ These patterns explain how to assemble objects and classes into larger structure
 * [Decorator](decorator)
 * [Facade](facade)
 * [Flyweight](flyweight)
+* [Proxy](proxy)
