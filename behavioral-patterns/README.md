@@ -10,3 +10,4 @@ These patterns are concerned with algorithms and the assignment of responsibilit
 * [Mediator](mediator)
 * [Memento](memento)
 * [Observer](observer)
+* [State](state)
