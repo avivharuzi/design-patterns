@@ -6,7 +6,7 @@ These patterns are concerned with algorithms and the assignment of responsibilit
 
 * [Chain of Responsibility](chain-of-responsibility)
 * [Command](command)
-* [Iter­a­tor](iter­a­tor)
+* [Iterator](iterator)
 * [Mediator](mediator)
 * [Memento](memento)
 * [Observer](observer)
