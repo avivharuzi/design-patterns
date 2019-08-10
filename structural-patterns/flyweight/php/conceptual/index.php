@@ -121,7 +121,7 @@ addCarToPoliceDatabase($factory,
     "James Doe",
     "BMW",
     "M5",
-    "red",
+    "red"
 );
 
 addCarToPoliceDatabase($factory,
@@ -129,7 +129,7 @@ addCarToPoliceDatabase($factory,
     "James Doe",
     "BMW",
     "X1",
-    "red",
+    "red"
 );
 
 $factory->listFlyweights();

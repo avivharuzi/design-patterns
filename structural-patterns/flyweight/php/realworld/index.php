@@ -284,7 +284,7 @@ while (($data = fgetcsv($handle)) !== false) {
         $data[$columns['color']],
         $data[$columns['texture']],
         $data[$columns['fur']],
-        $data[$columns['size']],
+        $data[$columns['size']]
     );
     $row++;
 }
