@@ -7,3 +7,4 @@ These patterns explain how to assemble objects and classes into larger structure
 * [Adapter](adapter)
 * [Bridge](bridge)
 * [Composite](composite)
+* [Decorator](decorator)
