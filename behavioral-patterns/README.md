@@ -11,3 +11,4 @@ These patterns are concerned with algorithms and the assignment of responsibilit
 * [Memento](memento)
 * [Observer](observer)
 * [State](state)
+* [Strategy](strategy)
