@@ -8,3 +8,4 @@ These patterns are concerned with algorithms and the assignment of responsibilit
 * [Command](command)
 * [Iter­a­tor](iter­a­tor)
 * [Mediator](mediator)
+* [Memento](memento)
