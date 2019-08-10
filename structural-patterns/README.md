@@ -9,3 +9,4 @@ These patterns explain how to assemble objects and classes into larger structure
 * [Composite](composite)
 * [Decorator](decorator)
 * [Facade](facade)
+* [Flyweight](flyweight)
