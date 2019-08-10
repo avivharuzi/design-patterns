@@ -5,3 +5,4 @@ These patterns explain how to assemble objects and classes into larger structure
 ## Content
 
 * [Adapter](adapter)
+* [Bridge](bridge)
