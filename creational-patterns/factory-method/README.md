@@ -1,6 +1,6 @@
-# Fac­to­ry Method
+# Factory Method
 
-Pro­vides an inter­face for cre­at­ing objects in a super­class, but allows sub­class­es to alter the type of objects that will be created.
+Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 
 ## Examples
 
