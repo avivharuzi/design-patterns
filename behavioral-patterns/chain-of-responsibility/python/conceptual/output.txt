@@ -15,4 +15,3 @@ Client: Who wants a Banana?
   Banana was left untouched.
 Client: Who wants a Cup of coffee?
   Cup of coffee was left untouched.
-  

@@ -6,7 +6,7 @@
  * Intent: Turns a request into a stand-alone object that contains all
  * information about the request. This transformation lets you parameterize
  * methods with different requests, delay or queue a request's execution, and
- * support undoable operations.
+ * support undo doable operations.
  *
  * Example: In this example, the Command pattern is used to queue web scraping
  * calls to the IMDB website and execute them one by one. The queue itself is

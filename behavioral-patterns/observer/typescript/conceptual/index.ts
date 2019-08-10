@@ -94,7 +94,7 @@ interface Observer {
  * attached to.
  */
 class ConcreteObserverA implements Observer {
-    public update(subject: Subject): void {
+    public update(subject: ConcreteSubject): void {
         if (subject.state < 3) {
             console.log('ConcreteObserverA: Reacted to the event.');
         }
@@ -102,7 +102,7 @@ class ConcreteObserverA implements Observer {
 }
 
 class ConcreteObserverB implements Observer {
-    public update(subject: Subject): void {
+    public update(subject: ConcreteSubject): void {
         if (subject.state === 0 || subject.state >= 2) {
             console.log('ConcreteObserverB: Reacted to the event.');
         }

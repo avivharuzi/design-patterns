@@ -48,7 +48,7 @@ class Originator
                 )
             ),
             1,
-            $length,
+            $length
         );
     }
 
