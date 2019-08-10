@@ -10,13 +10,13 @@ Allow objects with incompatible interfaces to collaborate.
 
 ## How to Implement
 
-1. Make sure that you have at least two class­es with incompatible interfaces:
-    * A use­ful ser­vice class, which you can’t change (often 3rd-party, legacy or with lots of exist­ing dependencies).
-    * One or sev­er­al client class­es that would ben­e­fit from using the ser­vice class.
-2. Declare the client inter­face and describe how clients com­mu­ni­cate with the service.
-3. Cre­ate the adapter class and make it fol­low the client inter­face. Leave all the meth­ods empty for now.
-4. Add a field to the adapter class to store a reference to the ser­vice object. The com­mon practice is to initialize this field via the constructor, but some­times it’s more convenient co to pass it to the adapter when call­ing its methods.
-5. One by one, implement all meth­ods of the client inter­face in the adapter class. The adapter should del­e­gate most of the real work to the ser­vice object, handling only the inter­face or data for­mat conversion.
-6. Clients should use the adapter via the client inter­face. This will let you change or extend the adapters with­out affect­ing the client code.
+1. Make sure that you have at least two classes with incompatible interfaces:
+    * A useful service class, which you can’t change (often 3rd-party, legacy or with lots of existing dependencies).
+    * One or several client classes that would benefit from using the service class.
+2. Declare the client interface and describe how clients communicate with the service.
+3. Create the adapter class and make it follow the client interface. Leave all the methods empty for now.
+4. Add a field to the adapter class to store a reference to the service object. The common practice is to initialize this field via the constructor, but sometimes it’s more convenient co to pass it to the adapter when calling its methods.
+5. One by one, implement all methods of the client interface in the adapter class. The adapter should delegate most of the real work to the service object, handling only the interface or data format conversion.
+6. Clients should use the adapter via the client interface. This will let you change or extend the adapters without affecting the client code.
 
 ![Adapter](/images/adapter.png)
