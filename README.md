@@ -2,6 +2,12 @@
 
 Implementation of Design Patterns in many languages.
 
+## Resources
+
+Most of the resources and images are from refactoring guro: https://refactoring.guru
+
+I take the resources and bundle them to make very easy to search for design pattern with examples.
+
 ## Content
 
 * [Creational Patterns](creational-patterns)
